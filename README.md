@@ -16,7 +16,7 @@
     - Ice-Break & Introduction
 - 10:45 - 11:40 Section 1
     - AWS Overview about Data Engineering
-    - IAM Overview
+    - IAM, S3 Overview
     - Create S3 Bucket through AWS Console
 - 11:40 - 11:50 Morning Break 
 - 11:50 - 12:50 Section 2
