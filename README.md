@@ -4,7 +4,7 @@
 1. Make sure **Terminal** is available on your laptop (Mac or WSL on Windows)
 2. **New AWS account** is created
 3. Install **MySQL workbench 8.0**
-4. Install **python3.12**
+4. Install **python>=3.8**
 5. Setup **AWS Cli**
 6. Install **pymysql** **pandas**
 
