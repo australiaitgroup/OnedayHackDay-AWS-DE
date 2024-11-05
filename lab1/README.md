@@ -5,7 +5,7 @@
 4. Use environment variables for bucket names.
 
 ## Steps to Set Up
-1. **Python Version**: 3.12
+1. **Python Version**: >=3.8
 2. **Environment Variables**: In the Lambda configuration, set up environment variables:
     - `LANDING_BUCKET`: Name of the source bucket (landing bucket).
     - `DESTINATION_BUCKET`: Name of the destination bucket.

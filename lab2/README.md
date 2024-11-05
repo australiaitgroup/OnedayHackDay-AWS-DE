@@ -4,7 +4,10 @@
 3. Upload the csv file into S3 bucket.
 
 ## Steps to Set Up
-1. **Python Version**: 3.12
+1. **Lambda Creation**
+    - `Runtime`: python>=3.8
+    - `Source Code`: point to the Amazon S3 link URL
+    - `Handler`: change handler into extract_rds.handler
 2. **Environment Variables**: In the Lambda configuration, set up environment variables:
     - `TABLE`: Name of the source table in RDS.
     - `BUCKET`: Name of the bucket for storing csv file.
