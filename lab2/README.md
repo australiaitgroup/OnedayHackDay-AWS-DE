@@ -1,7 +1,7 @@
 ## Requirement:
-1. Extract table from RDS table.
-2. Save the data into a csv file.
-3. Upload the csv file into S3 bucket.
+1. Extract table from RDS table
+2. Save the data into a csv.gz file
+3. Upload the csv file into S3 bucket
 
 ## Steps to Set Up
 1. **Lambda Creation**

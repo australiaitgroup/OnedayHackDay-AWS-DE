@@ -57,7 +57,7 @@ def handler(event, context):
             data.columns = [desc[0] for desc in cur.description]
             
             # Generate S3 file path with timestamp
-            file_key = 'rds_extraction/' + datetime.now().strftime("%Y/%m/%d/%H/%M/%S") + f'/{table_name}.csv.gz'
+            file_key = f'rds_extraction/{table_name}/' + datetime.now().strftime("%Y/%m/%d/%H/%M/%S") + f'/{table_name}.csv.gz'
             # Define a local file path for the temporary file storage in Lambda
             local_file = '/tmp/' + file_key.replace('/', '-')
             
