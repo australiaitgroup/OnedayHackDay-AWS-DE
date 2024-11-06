@@ -34,3 +34,6 @@
 - 15:00 - 16:00 Section 4
     - Lab 3: Lambda - read csv from S3 bucket, transform from csv to JSON format and load data into DynamoDB
     - Summary and Feedback
+
+**Useful Links:**
+- [Canva link](https://www.canva.com/design/DAGUzyccgt8/B3wWCofFai1uLdU5CNNPsA/edit)
