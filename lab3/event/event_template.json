@@ -1,0 +1,14 @@
+{
+    "Records":[
+        {
+            "s3":{
+                "bucket":{
+                    "name":"xxxxx"
+                },
+                "object":{
+                    "key":"customer/customer.csv.gz"
+                }
+            }
+        }
+    ]
+}
